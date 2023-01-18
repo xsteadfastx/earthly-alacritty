@@ -26,5 +26,5 @@ build:
 	ENV RUSTFLAGS='-C link-arg=-s'
 	COPY +code/code code
 	WORKDIR /code
-  RUN cargo build --release
+	RUN cargo build --release
 	SAVE ARTIFACT target/release/alacritty alacritty
