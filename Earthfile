@@ -1,6 +1,6 @@
 VERSION 0.6
-ARG VERSION=0.11.0
-FROM rust:1.66.1-bullseye
+ARG VERSION=0.13.2
+FROM rust:1.74.0-bullseye
 
 install-deps:
 	FROM +base
